@@ -1,0 +1,37 @@
+# Автоопределение текстовых файлов и перевод строк LF в репозитории.
+* text=auto eol=lf
+
+# Исходники и документация — текст.
+*.py text
+*.pyi text
+*.toml text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
+*.md text
+*.cfg text
+*.ini text
+*.editorconfig text
+
+# Бинарные форматы. Файлы пояснительной записки (MS Word) Git не сливает как текст.
+*.docx binary
+*.doc binary
+*.dotx binary
+*.dot binary
+*.xlsx binary
+*.xls binary
+*.pptx binary
+*.ppt binary
+*.pdf binary
+
+# Изображения и архивы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary
+*.7z binary
+*.rar binary
