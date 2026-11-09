@@ -1,1 +1,7 @@
 # Technical terms
+fastapi
+uvicorn
+pydantic
+pytest
+httpx
+cursovayarabota
