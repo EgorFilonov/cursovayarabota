@@ -1,0 +1,43 @@
+{
+  "version": "0.2",
+  "language": "en,ru",
+  "import": ["@cspell/dict-ru_ru/cspell-ext.json"],
+  "dictionaries": [
+    "ru-ru",
+    "en-us",
+    "russian",
+    "english",
+    "project-ru",
+    "project-en",
+    "project-tech"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-ru",
+      "path": "./dics/ru.txt",
+      "addWords": true
+    },
+    {
+      "name": "project-en",
+      "path": "./dics/en.txt",
+      "addWords": true
+    },
+    {
+      "name": "project-tech",
+      "path": "./dics/tech.txt",
+      "addWords": true
+    }
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".venv/**",
+    "venv/**",
+    "__pycache__/**",
+    "*.pyc",
+    "docs/html/**",
+    "package-lock.json"
+  ],
+  "files": [
+    "**/*.{py,md,json,yml,yaml,txt}"
+  ]
+}

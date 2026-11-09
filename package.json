@@ -1,0 +1,11 @@
+{
+  "name": "cursovayarabota-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CSpell и зависимости для проверки орфографии",
+  "devDependencies": {
+    "cspell": "^8.17.0",
+    "@cspell/dict-ru_ru": "^2.3.0",
+    "@cspell/dict-en_us": "^4.3.0"
+  }
+}
