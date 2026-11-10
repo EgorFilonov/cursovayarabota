@@ -5,3 +5,5 @@ pydantic
 pytest
 httpx
 cursovayarabota
+mypy
+mypy
