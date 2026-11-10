@@ -6,3 +6,4 @@ pytest
 httpx
 cursovayarabota
 mypy
+mypy
