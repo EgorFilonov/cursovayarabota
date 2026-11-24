@@ -1,25 +1,16 @@
-[tool.ruff]
-line-length = 100
-target-version = "py312"
-src = ["src"]
-
-[tool.ruff.lint]
-select = [
-    "E",   # pycodestyle errors
-    "W",   # pycodestyle warnings
-    "F",   # Pyflakes
-    "I",   # isort
-    "B",   # flake8-bugbear
-    "UP",  # pyupgrade
-    "SIM", # flake8-simplify
-    "N",   # pep8-naming
-]
-ignore = []
-
-[tool.ruff.format]
-quote-style = "double"
-indent-style = "space"
+[project]
+name = "vegetable-store"
+version = "0.1.0"
+description = "ИС Овощной магазин"
+requires-python = ">=3.12"
 
 [tool.pytest.ini_options]
-pythonpath = ["src"]
 testpaths = ["tests"]
+pythonpath = [".", "src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
